@@ -50,11 +50,9 @@ while lives > 0 and not winner:
     askforletter()
     checkwinner()
 
-
-
-
 if lives <= 0:
     print("You lost. The word was "+ stringword +".")
 else:
     print("Congrats! The word is '"+stringword+"'. You won with " + str(lives) + " lives left!" )
+
 
